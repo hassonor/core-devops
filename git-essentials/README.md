@@ -28,3 +28,13 @@ ___
 * Great check out  before large commit or merge
 * May come in handy when you "git" lost
 * `git log` or `git log --oneline` or `git log --graph --oneline`
+
+#### Amend and Revert
+* __Amending__
+  * Lets you quickly modify a commit 
+  * Should be used before pushing
+  * E.g.: `git commit --amend -m "feat: some changes"`
+* __Reverting__
+  * Safely reverts changes of a commit 
+  * Does not delete changes
+  * E.g.:  `git revert <Some GitCommit Id>` ,  :wq and Enter.
