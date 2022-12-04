@@ -24,3 +24,7 @@ ___
     * `pre-commit install` 
   * Node: husky
 
+#### Git Log
+* Great check out  before large commit or merge
+* May come in handy when you "git" lost
+* `git log` or `git log --oneline` or `git log --graph --oneline`
