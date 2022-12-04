@@ -14,3 +14,13 @@ ___
 2. `git reset --soft HEAD~1`
 3. `git status`
 4. Results: the commit from step 1 back to `Changes to be committed`
+
+#### Git Hooks
+* Allow actions to be tied to stages of development
+* May prevent bad code from getting committed
+* Easier to implement using various tools
+  * Python: pre-commit
+    * `pip install pre-commit`
+    * `pre-commit install` 
+  * Node: husky
+
